@@ -1,4 +1,66 @@
+/* main-text #212121 */
+/* second-text #757575 */
+/* background-color #ffffff */
+/* second-background-color #2F303A */
+/* nav-button #2196F3 */
+/* third-background-color #F5F4FA */
+
+:root {
+  --main-text-color: #212121;
+  --second-text-color: #757575;
+  --background-color: #ffffff;
+  --second-background-color: #2f303a;
+  --nav-button-color: #2196f3;
+  --third-background-color: #f5f4fa;
+}
+
 body {
-  font-family: "Raleway", sans-serif;
   font-family: "Roboto", sans-serif;
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+}
+
+.nav-link {
+  color: var(--main-text-color);
+}
+
+.title {
+  color: var(--main-text-color);
+}
+.hero {
+  background-color: var(--second-background-color);
+}
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  color: var(--background-color);
+}
+
+.features {
+}
+
+.features-title {
+  color: var(--main-text-color);
+}
+
+.features-description {
+  color: var(--second-text-color);
+}
+
+.team {
+  background-color: var(--third-background-color);
+}
+.team-name {
+  color: var(--main-text-color);
+}
+
+.team-position {
+  color: var(--second-text-color);
+}
+
+.footer {
+  color: var(--second-background-color);
 }
