@@ -1,10 +1,3 @@
-/* main-text #212121 */
-/* second-text #757575 */
-/* background-color #ffffff */
-/* second-background-color #2F303A */
-/* nav-button #2196F3 */
-/* third-background-color #F5F4FA */
-
 :root {
   --main-text-color: #212121;
   --second-text-color: #757575;
@@ -28,7 +21,6 @@ li {
 }
 
 /* header */
-
 .logo {
   font-family: "Raleway", sans-serif;
   color: var(--main-text-color);
@@ -47,12 +39,12 @@ li {
 }
 
 .header-link {
+  font-family: "Raleway", sans-serif;
   color: var(--main-text-color);
-  font-family: Roboto;
   font-style: normal;
   font-size: 14px;
   font-weight: 500;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 }
 
@@ -62,25 +54,23 @@ li {
 }
 
 /* !!!Index!!! */
-
 /* hero */
-
 .hero {
   background-color: var(--second-background-color);
 }
 
 .hero-title {
+  color: var(--background-color);
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
-  color: var(--background-color);
+  line-height: 1.36;
 }
 
 .button {
-  font-size: 16px;
-  line-height: 30px;
   background-color: var(--nav-button-color);
   color: var(--background-color);
+  font-size: 16px;
+  line-height: 30px;
   display: inline-block;
   border: 1px solid;
   border-color: transparent;
@@ -88,7 +78,6 @@ li {
 }
 
 /* features */
-
 .title {
   color: var(--main-text-color);
   font-weight: bold;
@@ -138,8 +127,8 @@ li {
 }
 
 .address {
+  font-family: "Raleway", sans-serif;
   color: var(--background-color);
-  font-family: Roboto;
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -147,26 +136,24 @@ li {
 }
 
 .address-link {
-  font-family: Roboto;
+  font-family: "Raleway", sans-serif;
+  color: rgba(255, 255, 255, 0.6);
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
 }
 
 /* !!!Portfolio!!! */
-
 /* Main */
-
 .button-filter {
   font-family: "Roboto", sans-serif;
+  background-color: var(--third-background-color);
+  color: var(--main-text-color);
   font-size: 16px;
   line-height: 1.6;
   font-weight: 500;
-  background-color: var(--third-background-color);
-  color: var(--main-text-color);
   display: inline-block;
   border: 1px solid;
   border-color: transparent;
@@ -178,9 +165,6 @@ li {
 .button-filter:focus {
   background-color: var(--nav-button-color);
   color: var(--background-color);
-}
-
-.projects {
 }
 
 .projects-title {
