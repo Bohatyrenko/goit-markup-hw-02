@@ -127,7 +127,7 @@ li {
 }
 
 .address {
-  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
   color: var(--background-color);
   font-style: normal;
   font-size: 14px;
@@ -136,7 +136,7 @@ li {
 }
 
 .address-link {
-  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
   color: rgba(255, 255, 255, 0.6);
   font-style: normal;
   font-weight: normal;
