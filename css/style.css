@@ -51,6 +51,9 @@ li {
   color: var(--nav-button-color);
 }
 
+
+/* !!!Index!!! */
+
 /* hero */
 
 .hero {
@@ -77,9 +80,9 @@ li {
 
 /* features */
 
-/* .title { 
+.title { 
   color: var(--main-text-color);
-}*/
+}
 
 .features-title {
   color: var(--main-text-color);
@@ -113,3 +116,35 @@ li {
 .footer {
   color: var(--second-background-color);
 }
+
+
+/* !!!Portfolio!!! */
+
+/* Main */
+
+.button-filter {
+  font-size: 16px;
+  line-height: 30px;
+  background-color: var(--background-color);
+  color: var(--main-text-color);
+  display: inline-block;
+  border: 1px solid;
+  border-color: transparent;
+  border-radius: 5px;
+}
+
+.button-filter:hover,
+.button-filter:focus {
+  font-size: 16px;
+  line-height: 30px;
+  background-color: var(--nav-button-color);
+  color: var(--background-color);
+  display: inline-block;
+  border: 1px solid;
+  border-color: transparent;
+  border-radius: 5px;
+}
+
+.projects {
+  
+}  
