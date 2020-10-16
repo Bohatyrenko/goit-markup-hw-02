@@ -60,6 +60,7 @@ li {
 }
 
 .hero-title {
+  font-family: "Roboto", sans-serif;
   color: var(--background-color);
   font-weight: 900;
   font-size: 44px;
@@ -96,8 +97,10 @@ li {
 
 .features-title {
   color: var(--main-text-color);
+  font-weight: bold;
   font-size: 14px;
   line-height: 1.4;
+  text-transform: uppercase;
   letter-spacing: 0.03em;
 }
 
